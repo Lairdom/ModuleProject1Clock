@@ -43,9 +43,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5c776ef99eacbad44a8d12a553e3a49a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -375,8 +375,6 @@ MonoBehaviour:
   hoursPivot: {fileID: 4997340077471414276}
   minutesPivot: {fileID: 4997340076329799749}
   secondsPivot: {fileID: 4997340077025912661}
-  roundTimer: 60
-  timerTickAudio: {fileID: 0}
 --- !u!54 &4997340076387331433
 Rigidbody:
   m_ObjectHideFlags: 0
